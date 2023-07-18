@@ -100,7 +100,7 @@ export function createBaseSettings(config: AstroConfig): AstroSettings {
 				},
 			},
 		],
-		renderers: [jsxRenderer],
+		renderers: [],
 		scripts: [],
 		clientDirectives: getDefaultClientDirectives(),
 		watchFiles: [],
